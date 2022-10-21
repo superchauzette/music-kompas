@@ -68,3 +68,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Intro
+
+- Pourquoi react router ?
+  pour faire de la navigation client side
+  c'est quoi la différence avec la navigation server side ?
+- ce qui change
+  - data api
+    - loader
+    - et Form/ action
+
+# Setup
+
+- create react app => pas de webpack à configurer manuellement
+  => le cas où c'est utilse c'est quand y'a du legacy code (du vieux code)
+- install react router dom
+
+```js
+  npx create-react-app kompas-music --template typescript
+  npm i react-router-dom
+```
+
+# Nested Route
+
+2 manieres d'instancier le router
+
+- nested route avec du jsx
+- ou avec objects javascript (configuration)
+
+  - bien comprendre les nested route c'est du genie
